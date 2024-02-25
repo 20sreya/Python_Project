@@ -36,7 +36,7 @@ group by first_name,last_name
 order by invoice_total desc
 limit 1
 
-Q.6 Write query to return the email, first name, last name, & Genre of all Rock Music listeners.
+Q6. Write query to return the email, first name, last name, & Genre of all Rock Music listeners.
 Return your list ordered alphabetically by email starting with A
 
 select distinct first_name,last_name,email
@@ -59,7 +59,7 @@ group by artist.name,artist.artist_id
 order by count(artist.artist_id) desc
 limit 10
 
-Q.8 Return all the track names that have a song length longer than the average song length. 
+Q8. Return all the track names that have a song length longer than the average song length. 
 Return the Name and Milliseconds for each track. Order by the song length with the longest songs listed first.
 
 
